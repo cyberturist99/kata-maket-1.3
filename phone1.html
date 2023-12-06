@@ -7,50 +7,105 @@
     <link rel="stylesheet" href="phone1.css" />
   </head>
   <body>
-    <header class="header">
+    <header>
       <nav class="block-menu">
-        <img class="elem-burger" src="/assets/images/burger.png" width="40px" height="40px" />
-        <div class="elem-logo">
-          <img src="/assets/images/Group.png" width="95.55px" height="50.81px" />
+        <div class="flex-start">
+          <div class="elem-burger">
+            <img src="/assets/images/burger.png" width="40px" height="40px" />
+          </div>
+          <div class="logo">
+            <img
+              src="/assets/images/Group.png"
+              width="95.55px"
+              height="50.81px"
+            />
+          </div>
         </div>
+        <div class="flex-end">
+          <div class="icon-call">
+            <img src="/assets/images/call.png" width="40px" height="40px" />
+          </div>
 
-        <img class="elem-repair" src="/assets/images/repair.png" width="40px" height="40px" />
-        <img
-          class="elem-checkstatus"
-          src="/assets/images/checkstatus.png"
-          width="40px"
-          height="40px"
-        />
+          <div class="icon-chat">
+            <img src="/assets/images/chat.png" width="40px" height="40px" />
+          </div>
+
+          <div class="icon-user">
+            <img src="/assets/images/profile.png" width="40px" height="40px" />
+          </div>
+
+          <div class="elem-repair">
+            <img src="/assets/images/repair.png" width="40px" height="40px" />
+          </div>
+          <div class="elem-checkstatus">
+            <img
+              src="/assets/images/checkstatus.png"
+              width="40px"
+              height="40px"
+            />
+          </div>
+        </div>
       </nav>
     </header>
     <main>
       <article class="block-main">
-        <div class="block-main__elem-title">
-          <h2>Услуги и сервисы</h2>
+        <div class="flex">
+          <div class="block-main__elem-title">Услуги и сервисы</div>
+          <div class="block-main__connect">
+            <span class="connect__text">Оставить заявку</span>
+            <img
+              class="connect__img"
+              src="/assets/images/repair.png"
+              width="40px"
+              height="40px"
+            />
+            <span class="connect__text">Статус ремонта</span>
+            <img
+              class="connect__img"
+              src="/assets/images/checkstatus.png"
+              width="40px"
+              height="40px"
+            />
+          </div>
         </div>
         <div class="slide-menu">
-          <button class="button1">
-            <div class="slide-menu__repair-devices">
-              Ремонтируемые устройства
-            </div>
+          <button class="slide-menu__repair-brands">
+            Ремонтируемые бренды
           </button>
-          <button class="button2">
-            <div class="slide-menu__add-servives">Дополнительные услуги</div>
+          <button class="slide-menu__repair-devices">
+            Ремонтируемые устройства
           </button>
+          <button class="slide-menu__add-servives">
+            Дополнительные услуги
+          </button>
+          <button class="slide-menu__price">Цены на услуги</button>
+          <button class="slide-menu__address">Адреса сервисных центров</button>
+          <button class="slide-menu__special-prices">Специальные цены</button>
         </div>
+        <button class="slide-menu__review">Отзывы</button>
         <section class="main-content">
-          <p class="main-content__text">
-            Мы являемся авторизованным сервисным центром по ремонту техники
-            Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
-            официальной гарантией производителя.
-          </p>
-          <div class="main-content__icon-read">
-            <div class="main-content__icon">
-              <img src="/assets/images/icon.png" />
+          <div class="main-content__company">
+            <p class="main-content__text">
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
+              <br /><br /><span class="show-768"
+                >Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                партнера</span
+              ><span class="show-1120"
+                >, что подтверждает большое количество постоянных клиентов. Мы
+                гордимся тем, что к нам обращаются по рекомендациям и, в свою
+                очередь, советуют нас родным и близким.</span
+              >
+            </p>
+            <div class="main-content__icon-read">
+              <div class="main-content__icon">
+                <img src="/assets/images/icon.png" />
+              </div>
+              <span class="main-content__read">Читать далее</span>
             </div>
-            <div class="main-content__read">Читать далее</div>
           </div>
-          <div class="main-content__img"><img src="/assets/images/_MG_3223.png" /></div>
+          <img class="img-cps" src="/assets/images/_MG_3223.png" />
         </section>
       </article>
     </main>
